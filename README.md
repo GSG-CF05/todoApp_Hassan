@@ -7,13 +7,13 @@
 
 ## This App Can Be Use To:-
 
--Add list of task 
--you can delete any task if you want
+- Add list of task 
+- you can delete any task if you want
 
 ## Programming languages used
--Html
--Css 
--JavaScript
+- Html
+- Css 
+- JavaScript
 ## Team members
--Hassan Jaber
+- Hassan Jaber
 [Live link](https://gsg-cf05.github.io/todoApp_Hassan/).
