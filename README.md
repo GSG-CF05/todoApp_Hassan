@@ -10,10 +10,10 @@
 -Add list of task 
 -you can delete any task if you want
 
-##Programming languages used
+## Programming languages used
 -Html
 -Css 
 -JavaScript
-##Team members
+## Team members
 -Hassan Jaber
 [Live link](https://gsg-cf05.github.io/todoApp_Hassan/).
