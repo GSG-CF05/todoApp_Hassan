@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right,#0B9DDD , #36CDAF);
+  }
+  .container {
+    width: 500px;
+    margin: 20px auto;
+   
+    opacity: 0.9;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50% ,-50%);
+  }
+  .form {
+      
+    display: flex;
+    align-items: center;
+    border: 3px red solid;
+    border-top-color:transparent;
+    border-left-color:transparent;
+    border-right-color:transparent;
+    border-left-width: 0px;
+    border-right-width: 0px;
+
+  }
+  .input {
+    padding: 10px;
+    border: 1px solid transparent;
+    flex: 1;
+    caret-color: green;
+    background-color: transparent;
+  }
+
+  .input:focus {
+    outline: none;
+  }
+  .add {
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 2em;
+    border-radius: 50%;
+    background-color: green;
+    color: white;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    bottom: -25px;
+    left: 12%;
+    z-index: 1;
+    box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
+    transition: all 0.2s 0.2s linear;
+      }
+      .add:hover {
+        height: 53px;
+        width: 53px;
+          
+      }
+  
+  .tasks {
+    
+    margin-top: 20px;
+    border-radius: 6px;
+
+  }
+  .tasks .task {
+    background-color: white;
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+    border: 1px solid #ccc;
+  }
+  .tasks .task:not(:last-child) {
+    margin-bottom: 15px;
+  }
+  .tasks .task:hover {
+    background-color: #f7f7f7;
+  }
+  .tasks .task.done {
+    opacity: 0.5;
+  }
+  .tasks .task span {
+    font-weight: bold;
+    font-size: 10px;
+    background-color: red;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
